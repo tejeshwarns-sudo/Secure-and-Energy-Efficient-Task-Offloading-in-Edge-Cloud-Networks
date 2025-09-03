@@ -1,3 +1,22 @@
+Author: TEJESHWAR NANDAKUMAR
+
+Title: Energy-Efficient Task Offloading with Secure Data Compression and Integrity Verification in Edge-Cloud Networks.
+
+Abstract
+The project aims to enhance task offloading in mobile edge computing by addressing the
+challenges posed by limited computational resources, focusing on maximizing the number of
+served mobile devices (MDs) while minimizing energy consumption. To achieve this, two primary
+optimization problems are formulated: a quantity-driven problem to increase the number of served
+MDs and an energy-driven problem to minimize energy consumption, both of which are NP-hard
+mixed-integer nonlinear programming challenges. As a solution, a binary tree-based task
+offloading (BTTO) scheme is proposed, utilizing convex optimization to efficiently derive optimal
+task offloading decisions. The algorithm is implemented in a simulation environment, where
+results demonstrate its effectiveness in serving more devices with reduced energy consumption
+compared to existing techniques. Additionally, the project incorporates extensions such as data
+compression to minimize transmission time and energy use, along with security measures using
+SHA256 hash codes to ensure data integrity during offloading.
+
+
 To run project double click on run.bat file to get below screen.
 In above screen enter number of nodes in the first text field and then click on ‘Generate Edge Network’ button to get below page.
 In above screen in entered number of mobile nodes as 30 and after pressing ‘Generate Edge Network’ button will get red colour circles and mobile devices and blue colour circles are the edge servers and now click on ‘Initialize BTTO Algorithm’ button to initialize algorithm with each mobile cost and get below output.
